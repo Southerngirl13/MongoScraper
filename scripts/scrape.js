@@ -1,5 +1,6 @@
 // scrape script
 
+
 // Require request and cheerio which makes scrapes possible
 var request = require("request");
 var cheerio = require("cheerio");
@@ -32,3 +33,5 @@ var scrape = function (cb) {
     cb(articles);
     });
 };
+
+module.exports = scrape;

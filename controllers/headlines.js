@@ -14,7 +14,7 @@ module.exports = {
                 articles[i].saved = false;
             }
             Headline.collection.insertMany(articles, {ordered:false}, function(err, docs) {
-                cd(err, docs);
+                cb(err, docs);
             });
         });
     },
@@ -35,4 +35,4 @@ module.exports = {
             $set: query
         }, {}, cb);
     }
-}
+};

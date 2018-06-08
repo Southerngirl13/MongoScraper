@@ -182,8 +182,8 @@ function handleNoteSave() {
     // and post it to the "/api/notes" route and send the formatted noteData as well
     if (newNote) {
         noteData = {
-_id: $(this).data("article")._id,
-noteText: newNote
+     _id: $(this).data("article")._id,
+     noteText: newNote
         };
         $.post("/api/notes", noteData).then(function() {
             // When complete, close the modal
@@ -206,4 +206,5 @@ function handleNoteDelete() {
         bootbox.hideAll();
     });
 }
+
 });

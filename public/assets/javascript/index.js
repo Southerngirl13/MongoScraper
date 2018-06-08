@@ -13,7 +13,8 @@ $(document).ready(function() {
     function initPage() {
       // Empty the article container, run an AJAX request for any unsaved headlines
       articleContainer.empty();
-      $.get("/api/headlines?saved=false").then(function(data) {
+      $.get("/api/headlines?saved=false")
+      .then(function(data) {
         // If we have headlines, render them to the page
         if (data && data.length) {
           renderArticles(data);
@@ -43,12 +44,11 @@ $(document).ready(function() {
       // This functiont takes in a single JSON object for an article/headline
       // It constructs a jQuery element containing all of the formatted HTML for the
       // article panel
-      var panel = $(["<div class='panel panel-default'>",
+      var panel = 
+          $(["<div class='panel panel-default'>",
           "<div class='panel-heading'>",
           "<h3>",
-          "<a class='article-link' target='_blank' href='" + article.url + "'>",
           article.headline,
-          "</a>",
           "<a class='btn btn-success save'>",
           "Save Article",
           "</a>",
@@ -58,8 +58,7 @@ $(document).ready(function() {
           article.summary,
           "</div>",
           "</div>"
-        ].join("")
-      );
+        ].join(""));
       // We attach the article's id to the jQuery element
       // We will use this when trying to figure out which article the user wants to save
       panel.data("_id", article._id);
@@ -83,8 +82,7 @@ $(document).ready(function() {
           "<h4><a href='/saved'>Go to Saved Articles</a></h4>",
           "</div>",
           "</div>"
-        ].join("")
-      );
+        ].join(""));
       // Appending this data to the page
       articleContainer.append(emptyAlert);
     }
