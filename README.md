@@ -12,7 +12,7 @@ In this assignment, you'll create a web app that lets users view and leave comme
 - request
   
 
-# New Features!
+# How MongoScraper Works!
 
   Create an app that accomplishes the following:
 
