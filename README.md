@@ -4,7 +4,7 @@
   <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
 </h1>
 
-In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
+<h3 align="center">In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.</h3>
 
   - express
   - express-handlebars
