@@ -1,8 +1,5 @@
 # MongoScraper
-
-[![N|Solid](file:///Users/kimberlyswope/Desktop/Bootcamp/Homework/MongoScraper/public/assets/images/mongoscraper2.jpg)](https://nodesource.com/products/nsolid)
-![MongoScraper](public/assets/images/mongoscraper2.jpg?raw=true)
-In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
+is assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
 
   - express
   - express-handlebars
@@ -12,7 +9,9 @@ In this assignment, you'll create a web app that lets users view and leave comme
 - request
   
 
-# How MongoScraper Works
+# New Features!
+
+  Create an app that accomplishes the following:
 
   1. Whenever a user visits your site, the app should scrape stories from a news outlet of your choice and display them for the user. Each scraped article should be saved to your application database. At a minimum, the app should scrape and display the following information for each article:
 
