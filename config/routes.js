@@ -9,7 +9,7 @@ var notesController = require("../controllers/notes");
 
 module.exports = function(router) {
     // This route render the homepage
-    router.get("/", function(req, res) {
+    router.get("/home", function(req, res) {
         res.render("home");
     });
     // This route renders the saved handlebars page
@@ -18,7 +18,11 @@ module.exports = function(router) {
     });
 
     router.get("/api/fetch", function(req, res) {
+        console.log("In API fetch")
         headlinesController.fetch(function(err, docs) {
+            console.log("I'm in Headlines.controller");
+            
+        
             if (!docs || docs.insertedCount === 0) {
                 res.json({
                     message: "No new articles today. Check back tomorrow!"

@@ -6,7 +6,7 @@ var request = require("request");
 var cheerio = require("cheerio");
 
 var scrape = function (cb) {
-    
+    console.log("I'm in the Scrape file");
     request("http://www.nytimes.com", function(err, res, body){
 
     var $ = cheerio.load(body);

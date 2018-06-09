@@ -110,6 +110,7 @@ $(document).ready(function() {
     }
   
     function handleArticleScrape() {
+      console.log ("I'm in Scrape");
       // This function handles the user clicking any "scrape new article" buttons
       $.get("/api/fetch")
       .then(function(data) {
