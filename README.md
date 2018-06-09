@@ -31,7 +31,8 @@ Reference-style:
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/akashnimare/foco/blob/master/app/img/foco.png" alt="Foco" width="160">
+  <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg" alt="Foco" width="160">
 </h1>
 
-<h4 align="center">A desktop menubar app based on <a href="http://electron.atom.io" target="_blank">Electron</a>.</h4>
+
+https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg?raw=true
