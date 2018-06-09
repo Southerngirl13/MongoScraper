@@ -1,6 +1,9 @@
 
 # MongoScraper 
-![MongoScraper](public/assets/images/mongoscraper2.jpg?raw=true)
+<h1 align="center">
+  <br>
+  <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
+</h1>
 
 In this assignment, you'll create a web app that lets users view and leave comments on the latest news. But you're not going to actually write any articles; instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.
 
@@ -31,7 +34,7 @@ Reference-style:
 
 <h1 align="center">
   <br>
-  <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg" alt="Foco" width="160">
+  <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
 </h1>
 
 
