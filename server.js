@@ -12,7 +12,7 @@ var app = express();
 
 // Set up an Express Router
 var router = express.Router();
-var db = require("./models");
+var db = require("/models");
 
 // Require our routes file to pass our router object
 require("./config/routes")(router);

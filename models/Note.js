@@ -6,7 +6,7 @@ var noteSchema = new Schema({
     _headlineId: {
         type: Schema.Types.ObjectId,
         ref: "Headline"
-    },
+    },s
     date: String,
     noteText: String
 });
