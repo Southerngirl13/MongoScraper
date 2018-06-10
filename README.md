@@ -4,17 +4,12 @@
   <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
 </h1>
 
-<h3 align="center">In this assignment, you'll create a web app that lets users view and leave comments on the latest news. 
-  But you're not going to actually write any articles;
-  instead, you'll flex your Mongoose and Cheerio muscles to scrape news from another site.</h3>
+<h2 align="center">
+An app that scrapes articles from the New York Times website <br>
+and lets users save articles and leave comments on the latest news.
+</h2>
+<br>
 
-  - express
-  - express-handlebars
-- mongoose
-- body-parser
-- cheerio
-- request
-  
 
 # How It Works
 
@@ -28,10 +23,17 @@
   2. Users should also be able to leave comments on the articles displayed and revisit them later. The comments should be saved to the database as well and associated with their articles. Users should also be able to delete comments left on articles. All stored comments should be visible to every user.
 
 
-<h1 align="center">
-  <br>
-  <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
-</h1>
+## Technologies Used
+- Node.js
+- Express.js
+- Handlebars.js
+- MongoDB
+- Mongoose
+- npm packages
+    - body-parser
+    - express
+    - express-handlebars
+    - mongoose
+    - cheerio
+    - request
 
-
-https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg?raw=true
