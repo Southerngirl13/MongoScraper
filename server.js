@@ -6,6 +6,9 @@ var bodyParser = require("body-parser");
 
 //Set up our port to be either the host's designated port, or 3000
 var PORT = process.env.PORT || 3000;
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/mongoHeadlines";
+mongoose.Promise = Promise;
+mongoose.connect(MONGODB_URI);
 
 // Instantiate our Express App
 var app = express();
