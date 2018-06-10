@@ -8,8 +8,8 @@
 An app that scrapes articles from the New York Times website <br>
 and lets users save articles and leave comments on the latest news.
 </h2>
+<br>
 
-  
 
 # How It Works
 
@@ -27,15 +27,6 @@ and lets users save articles and leave comments on the latest news.
   <br>
   <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
 </h1>
-
-
-  - express
-  - express-handlebars
-- mongoose
-- body-parser
-- cheerio
-- request
-https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg?raw=true
 
 
 ## Technologies Used
