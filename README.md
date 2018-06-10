@@ -4,17 +4,11 @@
   <img src="https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg">
 </h1>
 
-<h3 align="center">Overview <br>
-An app that scrapes articles from the New York Times website and lets users save articles and leave comments on the latest news.
+<h2 align="center">
+An app that scrapes articles from the New York Times website <br>
+and lets users save articles and leave comments on the latest news.
+</h2>
 
-</h3>
-
-  - express
-  - express-handlebars
-- mongoose
-- body-parser
-- cheerio
-- request
   
 
 # How It Works
@@ -35,6 +29,26 @@ An app that scrapes articles from the New York Times website and lets users save
 </h1>
 
 
+  - express
+  - express-handlebars
+- mongoose
+- body-parser
+- cheerio
+- request
 https://github.com/Southerngirl13/MongoScraper/raw/master/public/assets/images/mongoscraper2.jpg?raw=true
 
+
+## Technologies Used
+- Node.js
+- Express.js
+- Handlebars.js
+- MongoDB
+- Mongoose
+- npm packages
+    - body-parser
+    - express
+    - express-handlebars
+    - mongoose
+    - cheerio
+    - request
 
